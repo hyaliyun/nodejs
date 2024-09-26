@@ -796,6 +796,48 @@ export default async function createConfigAsync() {
           {to: 'showcase', label: 'Showcase', position: 'left'},
           {to: 'MapComponent', label: 'WebMaps', position: 'left'},
           {
+            to: '/content/support',
+            label: 'content',
+            position: 'left',
+            activeBaseRegex: `/content/`,
+          },
+          {
+            to: '/games/support',
+            label: 'games',
+            position: 'left',
+            activeBaseRegex: `/games/`,
+          },
+          {
+            to: '/glossary/support',
+            label: 'glossary',
+            position: 'left',
+            activeBaseRegex: `/glossary/`,
+          },
+          {
+            to: '/mdn/support',
+            label: 'mdn',
+            position: 'left',
+            activeBaseRegex: `/mdn/`,
+          },
+          {
+            to: '/mozilla/support',
+            label: 'mozilla',
+            position: 'left',
+            activeBaseRegex: `/mozilla/`,
+          },
+          {
+            to: '/related/support',
+            label: 'related',
+            position: 'left',
+            activeBaseRegex: `/related/`,
+          },
+          {
+            to: '/webassembly/support',
+            label: 'webassembly',
+            position: 'left',
+            activeBaseRegex: `/webassembly/`,
+          },
+          {
             to: '/community/support',
             label: 'Community',
             position: 'left',
@@ -827,41 +869,32 @@ export default async function createConfigAsync() {
             position: 'right',
             dropdownActiveClassDisabled: true,
             dropdownItemsAfter: [
-             
               {
-                to: '/content/support',
-                label: 'content',
-                activeBaseRegex: `/content/`,
+                type: 'html',
+                value: '<hr class="dropdown-separator">',
               },
               {
-                to: '/games/support',
-                label: 'games',
-                activeBaseRegex: `/games/`,
+                type: 'html',
+                className: 'dropdown-archived-versions',
+                value: '<b>Archived versions</b>',
+              },
+              ...ArchivedVersionsDropdownItems.map(
+                ([versionName, versionUrl]) => ({
+                  label: versionName,
+                  href: versionUrl,
+                }),
+              ),
+              {
+                href: 'https://543x.com',
+                label: '1.x.x',
               },
               {
-                to: '/glossary/support',
-                label: 'glossary',
-                activeBaseRegex: `/glossary/`,
+                type: 'html',
+                value: '<hr class="dropdown-separator">',
               },
               {
-                to: '/mdn/support',
-                label: 'mdn',
-                activeBaseRegex: `/mdn/`,
-              },
-              {
-                to: '/mozilla/support',
-                label: 'mozilla',
-                activeBaseRegex: `/mozilla/`,
-              },
-              {
-                to: '/related/support',
-                label: 'related',
-                activeBaseRegex: `/related/`,
-              },
-              {
-                to: '/webassembly/support',
-                label: 'webassembly',
-                activeBaseRegex: `/webassembly/`,
+                to: '/versions',
+                label: 'All versions',
               },
             ],
           },
