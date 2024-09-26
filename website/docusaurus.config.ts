@@ -314,140 +314,7 @@ export default async function createConfigAsync() {
           showLastUpdateTime: true,
         } satisfies DocsOptions,
       ],
-      [
-        'content-docs',
-        {
-          id: 'games',
-          path: 'games',
-          routeBasePath: 'games',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
-      [
-        'content-docs',
-        {
-          id: 'glossary',
-          path: 'glossary',
-          routeBasePath: 'glossary',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
-      [
-        'content-docs',
-        {
-          id: 'mdn',
-          path: 'mdn',
-          routeBasePath: 'mdn',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
-      [
-        'content-docs',
-        {
-          id: 'mozilla',
-          path: 'mozilla',
-          routeBasePath: 'mozilla',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
-      [
-        'content-docs',
-        {
-          id: 'related',
-          path: 'related',
-          routeBasePath: 'related',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
-
-      [
-        'content-docs',
-        {
-          id: 'webassembly',
-          path: 'webassembly',
-          routeBasePath: 'webassembly',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
-      [
-        'content-docs',
-        {
-          id: 'content',
-          path: 'content',
-          routeBasePath: 'content',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== defaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/hyaliyun/nodejs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-          remarkPlugins: [npm2yarn],
-          editCurrentVersion: true,
-          sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        } satisfies DocsOptions,
-      ],
+      
       [
         'client-redirects',
         {
@@ -472,34 +339,7 @@ export default async function createConfigAsync() {
               from: ['/docs/support', '/docs/next/support'],
               to: '/learn/support',
             },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/games/support',
-            },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/glossary/support',
-            },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/mdn/support',
-            },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/mozilla/support',
-            },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/related/support',
-            },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/webassembly/support',
-            },
-            {
-              from: ['/docs/support', '/docs/next/support'],
-              to: '/content/support',
-            },
+            
             {
               from: ['/docs/team', '/docs/next/team'],
               to: '/community/team',
@@ -795,48 +635,7 @@ export default async function createConfigAsync() {
           },
           {to: 'showcase', label: 'Showcase', position: 'left'},
           {to: 'MapComponent', label: 'WebMaps', position: 'left'},
-          {
-            to: '/content/support',
-            label: 'content',
-            position: 'left',
-            activeBaseRegex: `/content/`,
-          },
-          {
-            to: '/games/support',
-            label: 'games',
-            position: 'left',
-            activeBaseRegex: `/games/`,
-          },
-          {
-            to: '/glossary/support',
-            label: 'glossary',
-            position: 'left',
-            activeBaseRegex: `/glossary/`,
-          },
-          {
-            to: '/mdn/support',
-            label: 'mdn',
-            position: 'left',
-            activeBaseRegex: `/mdn/`,
-          },
-          {
-            to: '/mozilla/support',
-            label: 'mozilla',
-            position: 'left',
-            activeBaseRegex: `/mozilla/`,
-          },
-          {
-            to: '/related/support',
-            label: 'related',
-            position: 'left',
-            activeBaseRegex: `/related/`,
-          },
-          {
-            to: '/webassembly/support',
-            label: 'webassembly',
-            position: 'left',
-            activeBaseRegex: `/webassembly/`,
-          },
+          
           {
             to: '/community/support',
             label: 'Community',
@@ -845,7 +644,7 @@ export default async function createConfigAsync() {
           },
           {
             to: '/google/support',
-            label: 'Google',
+            label: 'content',
             position: 'left',
             activeBaseRegex: `/google/`,
           },
