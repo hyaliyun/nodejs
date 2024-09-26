@@ -1,4 +1,12 @@
+---
+title: Desktop mouse and keyboard controls
+slug: Games/Techniques/Control_mechanisms/Desktop_with_mouse_and_keyboard
+page-type: guide
+---
 
+{{GamesSidebar}}
+
+{{PreviousMenuNext("Games/Techniques/Control_mechanisms/Mobile_touch", "Games/Techniques/Control_mechanisms/Desktop_with_gamepad", "Games/Techniques/Control_mechanisms")}}
 
 Now, when we have our mobile controls in place and the game is playable on touch-enabled devices, it would be good to add mouse and keyboard support so the game can be playable on desktop also. That way we can broaden the list of supported platforms. We'll look at this below.
 

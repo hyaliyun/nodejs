@@ -1,4 +1,12 @@
+---
+title: 2D breakout game using Phaser
+slug: Games/Tutorials/2D_breakout_game_Phaser
+page-type: guide
+---
 
+{{GamesSidebar}}
+
+{{Next("Games/Workflows/2D_Breakout_game_Phaser/Initialize_the_framework")}}
 
 In this step-by-step tutorial, we create a simple mobile **MDN Breakout** game written in JavaScript, using the [Phaser](https://phaser.io/) framework.
 

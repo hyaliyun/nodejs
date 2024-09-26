@@ -1,3 +1,12 @@
+---
+title: Initialize the framework
+slug: Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework
+page-type: guide
+---
+
+{{GamesSidebar}}
+
+{{PreviousNext("Games/Workflows/2D_Breakout_game_Phaser", "Games/Workflows/2D_Breakout_game_Phaser/Scaling")}}
 
 This is the first of 16 tutorials to learn how to use [Gamedev Phaser](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser). After completing this tutorial you can find the source code for this section at [Gamedev-Phaser-Content-Kit/demos/lesson01.html](https://github.com/end3r/Gamedev-Phaser-Content-Kit/blob/gh-pages/demos/lesson01.html).
 

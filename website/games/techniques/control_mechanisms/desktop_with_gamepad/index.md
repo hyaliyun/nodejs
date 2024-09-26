@@ -1,4 +1,12 @@
+---
+title: Desktop gamepad controls
+slug: Games/Techniques/Control_mechanisms/Desktop_with_gamepad
+page-type: guide
+---
 
+{{GamesSidebar}}
+
+{{PreviousMenuNext("Games/Techniques/Control_mechanisms/Desktop_with_mouse_and_keyboard", "Games/Techniques/Control_mechanisms/Other", "Games/Techniques/Control_mechanisms")}}
 
 Now we'll look at adding something extra — support for gamepad controls, via the Gamepad API. It brings a console-like experience to your web games.
 

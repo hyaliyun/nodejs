@@ -1,3 +1,12 @@
+---
+title: Randomizing gameplay
+slug: Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay
+page-type: guide
+---
+
+{{GamesSidebar}}
+
+{{Previous("Games/Workflows/2D_Breakout_game_Phaser/Buttons")}}
 
 This is the **16th step** out of 16 of the [Gamedev Phaser tutorial](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser). You can find the source code as it should look after completing this lesson at [Gamedev-Phaser-Content-Kit/demos/lesson16.html](https://github.com/end3r/Gamedev-Phaser-Content-Kit/blob/gh-pages/demos/lesson16.html).
 

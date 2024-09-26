@@ -1,3 +1,12 @@
+---
+title: Unconventional controls
+slug: Games/Techniques/Control_mechanisms/Other
+page-type: guide
+---
+
+{{GamesSidebar}}
+
+{{PreviousMenu("Games/Techniques/Control_mechanisms/Desktop_with_gamepad", "Games/Techniques/Control_mechanisms")}}
 
 Having different control mechanisms in your game helps reach broader audiences. Implementing mobile and desktop controls is recommended is a must, and gamepad controls add that extra experience. But imagine going even further — in this article we will explore various unconventional ways to control your web game, some more unconventional than others.
 

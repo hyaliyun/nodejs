@@ -1,3 +1,12 @@
+---
+title: Mobile touch controls
+slug: Games/Techniques/Control_mechanisms/Mobile_touch
+page-type: guide
+---
+
+{{GamesSidebar}}
+
+{{NextMenu("Games/Techniques/Control_mechanisms/Desktop_with_mouse_and_keyboard", "Games/Techniques/Control_mechanisms")}}
 
 The future of mobile gaming is definitely web, and many developers choose the [mobile first](/en-US/docs/Glossary/Mobile_First) approach in their game development process — in the modern world, this generally also involves implementing touch controls. In this tutorial, we will see how easy it is to implement mobile controls in an HTML game, and enjoy playing on a mobile touch-enabled device.
 

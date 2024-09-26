@@ -1,5 +1,14 @@
+---
+title: Collision detection
+slug: Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection
+page-type: guide
+---
 
-This is the **7th step** out of 10 of the [Gamedev Canvas tutorial](/Games/Tutorials/2D_Breakout_game_pure_JavaScript). You can find the source code as it should look after completing this lesson at [Gamedev-Canvas-workshop/lesson7.html](https://github.com/end3r/Gamedev-Canvas-workshop/blob/gh-pages/lesson07.html).
+{{GamesSidebar}}
+
+{{PreviousNext("Games/Workflows/2D_Breakout_game_pure_JavaScript/Build_the_brick_field", "Games/Workflows/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win")}}
+
+This is the **7th step** out of 10 of the [Gamedev Canvas tutorial](/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript). You can find the source code as it should look after completing this lesson at [Gamedev-Canvas-workshop/lesson7.html](https://github.com/end3r/Gamedev-Canvas-workshop/blob/gh-pages/lesson07.html).
 
 We have the bricks appearing on the screen already, but the game still isn't _that_ interesting as the ball goes through them. We need to think about adding collision detection so it can bounce off the bricks and break them.
 
@@ -283,6 +292,6 @@ document.getElementById("runButton").addEventListener("click", function () {
 
 ## Next steps
 
-We are definitely getting there now; let's move on! In the eighth chapter we will be looking at how to [Track the score and win](/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win).
+We are definitely getting there now; let's move on! In the eighth chapter we will be looking at how to [Track the score and win](/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win).
 
 {{PreviousNext("Games/Workflows/2D_Breakout_game_pure_JavaScript/Build_the_brick_field", "Games/Workflows/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win")}}

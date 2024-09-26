@@ -1,5 +1,14 @@
+---
+title: Scaling
+slug: Games/Tutorials/2D_breakout_game_Phaser/Scaling
+page-type: guide
+---
 
-This is the **2nd step** out of 16 of the [Gamedev Phaser tutorial](/conten/Games/Tutorials/2D_breakout_game_Phaser). You can find the source code as it should look after completing this lesson at [Gamedev-Phaser-Content-Kit/demos/lesson02.html](https://github.com/end3r/Gamedev-Phaser-Content-Kit/blob/gh-pages/demos/lesson02.html).
+{{GamesSidebar}}
+
+{{PreviousNext("Games/Workflows/2D_Breakout_game_Phaser/Initialize_the_framework", "Games/Workflows/2D_Breakout_game_Phaser/Load_the_assets_and_print_them_on_screen")}}
+
+This is the **2nd step** out of 16 of the [Gamedev Phaser tutorial](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser). You can find the source code as it should look after completing this lesson at [Gamedev-Phaser-Content-Kit/demos/lesson02.html](https://github.com/end3r/Gamedev-Phaser-Content-Kit/blob/gh-pages/demos/lesson02.html).
 
 Scaling refers to how the game canvas will scale on different screen sizes. We can make the game scale to fit on any screen size automatically during the preload stage, so we don't have to worry about it later.
 
@@ -41,6 +50,6 @@ You can check the finished code for this lesson in the live demo below, and play
 
 ## Next steps
 
-Now we've set up the scaling for our game, let's continue to the third lesson and work out how to [load the assets and print them on screen](/conten/Games/Tutorials/2D_breakout_game_Phaser/Load_the_assets_and_print_them_on_screen).
+Now we've set up the scaling for our game, let's continue to the third lesson and work out how to [load the assets and print them on screen](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Load_the_assets_and_print_them_on_screen).
 
-
+{{PreviousNext("Games/Workflows/2D_Breakout_game_Phaser/Initialize_the_framework", "Games/Workflows/2D_Breakout_game_Phaser/Load_the_assets_and_print_them_on_screen")}}

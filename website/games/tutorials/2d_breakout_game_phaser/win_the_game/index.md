@@ -1,3 +1,12 @@
+---
+title: Win the game
+slug: Games/Tutorials/2D_breakout_game_Phaser/Win_the_game
+page-type: guide
+---
+
+{{GamesSidebar}}
+
+{{PreviousNext("Games/Workflows/2D_Breakout_game_Phaser/The_score", "Games/Workflows/2D_Breakout_game_Phaser/Extra_lives")}}
 
 This is the **12th step** out of 16 of the [Gamedev Phaser tutorial](/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser). You can find the source code as it should look after completing this lesson at [Gamedev-Phaser-Content-Kit/demos/lesson12.html](https://github.com/end3r/Gamedev-Phaser-Content-Kit/blob/gh-pages/demos/lesson12.html).
 
